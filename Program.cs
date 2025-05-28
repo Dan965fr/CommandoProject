@@ -10,6 +10,8 @@ namespace Commandos
     {
         static void Main(string[] args)
         {
+            Game game = new Game();
+            game.Run();
             //Commando regular = new Commando("John", "EagleEye");
             //Commando sea = new SeaCommando("Mike", "SeaWolf");
             //Commando air = new AirCommando("Tommer", "SkyDiver");
